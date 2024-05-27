@@ -1,0 +1,71 @@
+#page_footer {
+	margin: 5px;
+	width: 567px;
+	float: right;
+	text-align: center;
+	font-size: 11px;
+}
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:0px solid #666;
+	margin-bottom:.5em; /*margin between menu and rest of page*/
+	overflow:hidden;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:0px 0px 5px 0px;
+	list-style:none;
+	
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("left.png") no-repeat left top;
+	margin:0;
+	padding:0 0 0 6px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("right.png") no-repeat right top;
+	padding:6px 15px 4px 6px;
+	margin-right:10px;
+	color:#FFF;
+	font-size:20;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+
+<div id="tabs">
+  <ul>
+    <li></li>
+    <li><a href="#"><span>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HOME &nbsp;&nbsp;&nbsp;&nbsp;</span></a></li>
+    <li><a href="#"><span>Menu 2</span></a></li>
+    <li><a href="#"><span>Menu 3</span></a></li>
+    <li><a href="#"><span>Menu 4</span></a></li>
+    <li><a href="#"><span>Menu 5</span></a></li>
+    <li><a href="#"><span>Menu 6</span></a></li>
+  </ul>
+</div>
